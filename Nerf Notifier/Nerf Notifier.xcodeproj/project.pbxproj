@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02DD0D7A1C6FE7B800475C21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DD0D791C6FE7B800475C21 /* AppDelegate.swift */; };
+		02DD0D7C1C6FE7B800475C21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DD0D7B1C6FE7B800475C21 /* ViewController.swift */; };
+		02DD0D7F1C6FE7B800475C21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02DD0D7D1C6FE7B800475C21 /* Main.storyboard */; };
+		02DD0D811C6FE7B800475C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02DD0D801C6FE7B800475C21 /* Assets.xcassets */; };
+		02DD0D841C6FE7B800475C21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02DD0D821C6FE7B800475C21 /* LaunchScreen.storyboard */; };
+		02DD0D8F1C6FE7B800475C21 /* Nerf_NotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DD0D8E1C6FE7B800475C21 /* Nerf_NotifierTests.swift */; };
+		02DD0D9A1C6FE7B800475C21 /* Nerf_NotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DD0D991C6FE7B800475C21 /* Nerf_NotifierUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02DD0D8B1C6FE7B800475C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02DD0D6E1C6FE7B800475C21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02DD0D751C6FE7B800475C21;
+			remoteInfo = "Nerf Notifier";
+		};
+		02DD0D961C6FE7B800475C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02DD0D6E1C6FE7B800475C21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02DD0D751C6FE7B800475C21;
+			remoteInfo = "Nerf Notifier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02DD0D761C6FE7B800475C21 /* Nerf Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nerf Notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02DD0D791C6FE7B800475C21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02DD0D7B1C6FE7B800475C21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02DD0D7E1C6FE7B800475C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02DD0D801C6FE7B800475C21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02DD0D831C6FE7B800475C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02DD0D851C6FE7B800475C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02DD0D8A1C6FE7B800475C21 /* Nerf NotifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nerf NotifierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02DD0D8E1C6FE7B800475C21 /* Nerf_NotifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nerf_NotifierTests.swift; sourceTree = "<group>"; };
+		02DD0D901C6FE7B800475C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02DD0D951C6FE7B800475C21 /* Nerf NotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nerf NotifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02DD0D991C6FE7B800475C21 /* Nerf_NotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nerf_NotifierUITests.swift; sourceTree = "<group>"; };
+		02DD0D9B1C6FE7B800475C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02DD0D731C6FE7B800475C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02DD0D871C6FE7B800475C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02DD0D921C6FE7B800475C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02DD0D6D1C6FE7B800475C21 = {
+			isa = PBXGroup;
+			children = (
+				02DD0D781C6FE7B800475C21 /* Nerf Notifier */,
+				02DD0D8D1C6FE7B800475C21 /* Nerf NotifierTests */,
+				02DD0D981C6FE7B800475C21 /* Nerf NotifierUITests */,
+				02DD0D771C6FE7B800475C21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02DD0D771C6FE7B800475C21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02DD0D761C6FE7B800475C21 /* Nerf Notifier.app */,
+				02DD0D8A1C6FE7B800475C21 /* Nerf NotifierTests.xctest */,
+				02DD0D951C6FE7B800475C21 /* Nerf NotifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02DD0D781C6FE7B800475C21 /* Nerf Notifier */ = {
+			isa = PBXGroup;
+			children = (
+				02DD0D791C6FE7B800475C21 /* AppDelegate.swift */,
+				02DD0D7B1C6FE7B800475C21 /* ViewController.swift */,
+				02DD0D7D1C6FE7B800475C21 /* Main.storyboard */,
+				02DD0D801C6FE7B800475C21 /* Assets.xcassets */,
+				02DD0D821C6FE7B800475C21 /* LaunchScreen.storyboard */,
+				02DD0D851C6FE7B800475C21 /* Info.plist */,
+			);
+			path = "Nerf Notifier";
+			sourceTree = "<group>";
+		};
+		02DD0D8D1C6FE7B800475C21 /* Nerf NotifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				02DD0D8E1C6FE7B800475C21 /* Nerf_NotifierTests.swift */,
+				02DD0D901C6FE7B800475C21 /* Info.plist */,
+			);
+			path = "Nerf NotifierTests";
+			sourceTree = "<group>";
+		};
+		02DD0D981C6FE7B800475C21 /* Nerf NotifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02DD0D991C6FE7B800475C21 /* Nerf_NotifierUITests.swift */,
+				02DD0D9B1C6FE7B800475C21 /* Info.plist */,
+			);
+			path = "Nerf NotifierUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02DD0D751C6FE7B800475C21 /* Nerf Notifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02DD0D9E1C6FE7B800475C21 /* Build configuration list for PBXNativeTarget "Nerf Notifier" */;
+			buildPhases = (
+				02DD0D721C6FE7B800475C21 /* Sources */,
+				02DD0D731C6FE7B800475C21 /* Frameworks */,
+				02DD0D741C6FE7B800475C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nerf Notifier";
+			productName = "Nerf Notifier";
+			productReference = 02DD0D761C6FE7B800475C21 /* Nerf Notifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02DD0D891C6FE7B800475C21 /* Nerf NotifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02DD0DA11C6FE7B800475C21 /* Build configuration list for PBXNativeTarget "Nerf NotifierTests" */;
+			buildPhases = (
+				02DD0D861C6FE7B800475C21 /* Sources */,
+				02DD0D871C6FE7B800475C21 /* Frameworks */,
+				02DD0D881C6FE7B800475C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02DD0D8C1C6FE7B800475C21 /* PBXTargetDependency */,
+			);
+			name = "Nerf NotifierTests";
+			productName = "Nerf NotifierTests";
+			productReference = 02DD0D8A1C6FE7B800475C21 /* Nerf NotifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02DD0D941C6FE7B800475C21 /* Nerf NotifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02DD0DA41C6FE7B800475C21 /* Build configuration list for PBXNativeTarget "Nerf NotifierUITests" */;
+			buildPhases = (
+				02DD0D911C6FE7B800475C21 /* Sources */,
+				02DD0D921C6FE7B800475C21 /* Frameworks */,
+				02DD0D931C6FE7B800475C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02DD0D971C6FE7B800475C21 /* PBXTargetDependency */,
+			);
+			name = "Nerf NotifierUITests";
+			productName = "Nerf NotifierUITests";
+			productReference = 02DD0D951C6FE7B800475C21 /* Nerf NotifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02DD0D6E1C6FE7B800475C21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jesse Liang";
+				TargetAttributes = {
+					02DD0D751C6FE7B800475C21 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H598HBDDJ8;
+					};
+					02DD0D891C6FE7B800475C21 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H598HBDDJ8;
+						TestTargetID = 02DD0D751C6FE7B800475C21;
+					};
+					02DD0D941C6FE7B800475C21 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H598HBDDJ8;
+						TestTargetID = 02DD0D751C6FE7B800475C21;
+					};
+				};
+			};
+			buildConfigurationList = 02DD0D711C6FE7B800475C21 /* Build configuration list for PBXProject "Nerf Notifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02DD0D6D1C6FE7B800475C21;
+			productRefGroup = 02DD0D771C6FE7B800475C21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02DD0D751C6FE7B800475C21 /* Nerf Notifier */,
+				02DD0D891C6FE7B800475C21 /* Nerf NotifierTests */,
+				02DD0D941C6FE7B800475C21 /* Nerf NotifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02DD0D741C6FE7B800475C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DD0D841C6FE7B800475C21 /* LaunchScreen.storyboard in Resources */,
+				02DD0D811C6FE7B800475C21 /* Assets.xcassets in Resources */,
+				02DD0D7F1C6FE7B800475C21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02DD0D881C6FE7B800475C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02DD0D931C6FE7B800475C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02DD0D721C6FE7B800475C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DD0D7C1C6FE7B800475C21 /* ViewController.swift in Sources */,
+				02DD0D7A1C6FE7B800475C21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02DD0D861C6FE7B800475C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DD0D8F1C6FE7B800475C21 /* Nerf_NotifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02DD0D911C6FE7B800475C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DD0D9A1C6FE7B800475C21 /* Nerf_NotifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02DD0D8C1C6FE7B800475C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02DD0D751C6FE7B800475C21 /* Nerf Notifier */;
+			targetProxy = 02DD0D8B1C6FE7B800475C21 /* PBXContainerItemProxy */;
+		};
+		02DD0D971C6FE7B800475C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02DD0D751C6FE7B800475C21 /* Nerf Notifier */;
+			targetProxy = 02DD0D961C6FE7B800475C21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02DD0D7D1C6FE7B800475C21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02DD0D7E1C6FE7B800475C21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02DD0D821C6FE7B800475C21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02DD0D831C6FE7B800475C21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02DD0D9C1C6FE7B800475C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02DD0D9D1C6FE7B800475C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02DD0D9F1C6FE7B800475C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nerf Notifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesseliang.Nerf-Notifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02DD0DA01C6FE7B800475C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nerf Notifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesseliang.Nerf-Notifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02DD0DA21C6FE7B800475C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Nerf NotifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesseliang.Nerf-NotifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nerf Notifier.app/Nerf Notifier";
+			};
+			name = Debug;
+		};
+		02DD0DA31C6FE7B800475C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Nerf NotifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesseliang.Nerf-NotifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nerf Notifier.app/Nerf Notifier";
+			};
+			name = Release;
+		};
+		02DD0DA51C6FE7B800475C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Nerf NotifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesseliang.Nerf-NotifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Nerf Notifier";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		02DD0DA61C6FE7B800475C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Nerf NotifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesseliang.Nerf-NotifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Nerf Notifier";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02DD0D711C6FE7B800475C21 /* Build configuration list for PBXProject "Nerf Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02DD0D9C1C6FE7B800475C21 /* Debug */,
+				02DD0D9D1C6FE7B800475C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02DD0D9E1C6FE7B800475C21 /* Build configuration list for PBXNativeTarget "Nerf Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02DD0D9F1C6FE7B800475C21 /* Debug */,
+				02DD0DA01C6FE7B800475C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02DD0DA11C6FE7B800475C21 /* Build configuration list for PBXNativeTarget "Nerf NotifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02DD0DA21C6FE7B800475C21 /* Debug */,
+				02DD0DA31C6FE7B800475C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02DD0DA41C6FE7B800475C21 /* Build configuration list for PBXNativeTarget "Nerf NotifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02DD0DA51C6FE7B800475C21 /* Debug */,
+				02DD0DA61C6FE7B800475C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02DD0D6E1C6FE7B800475C21 /* Project object */;
+}
