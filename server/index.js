@@ -4,23 +4,32 @@ var app = express()
 var player1 = {"health": 100, "phone": ""}
 var player2 = {"health": 100, "phone": ""}
 
+var part = ""
+
+app.get('/get', function(req, res){
+	res.json(part)
+})
+
 app.use(bodyParser.json())
 
 app.post('/post', function(req, res){
 	console.log(req.body())
 	if(req.body().part == 'limb'){
+		part = "limb"
 		if(req.body().player == 1){
 			player1.health = player1.health - 30
 		} else if(req.body().player == 2){
 			player2.health = player2.health - 30
 		}
 	} else if(req.body().part == 'body'){
+		part = "body"
 		if(req.body().player == 1){
 			player1.health = player1.health - 80
 		} else if(req.body().player == 2){
 			player2.health = player2.health - 80
 		}
 	} else if(req.body().part == 'head'){
+		part = "head"
 		if(req.body().player == 1){
 			player1.health = player1.health - 100
 		} else if(req.body().player == 2){
